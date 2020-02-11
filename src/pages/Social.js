@@ -14,6 +14,7 @@ export const Social = () => {
   if (window.innerWidth > 650) {
     return (
       <div className={classes.page}>
+        
         {renderBandPhotos()}
   
         <div className={classes.socialContainer}>

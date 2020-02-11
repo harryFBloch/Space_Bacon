@@ -17,7 +17,9 @@ export const Band = () => {
 
   return (
     <>
-    <BannerImage src={BandPhoto} />
+    <div className={classes.marginTop}>
+      <BannerImage src={BandPhoto} />
+    </div>
     <div className={classes.page}>
       <div className={classes.bandInfoContainer}>
         <h1 id="Band" >About The Band</h1>
