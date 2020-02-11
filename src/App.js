@@ -11,15 +11,16 @@ import './App.css'
 
 function App() {
   return (
-    <div >
+    <>
       <NavBar />
+      <div className="blah">BLAH</div>
       <SideSocialNav />
       <BannerImage src={baconBanner} alt="Space Bacon" buttons={true}/>
       <Tour />
       <Band />
       <Social />
       <Booking />
-    </div>
+    </>
   );
 }
 

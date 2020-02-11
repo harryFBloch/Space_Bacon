@@ -12,3 +12,13 @@
 .socialContainer {
   width: 50%;
 }
+
+.facebook {
+  margin-right: 16px;
+}
+
+.extraSmallFacebook {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
