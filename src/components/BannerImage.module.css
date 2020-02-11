@@ -1,0 +1,38 @@
+.banner {
+  width: 100%;
+}
+
+.bannerContainer {
+  position: relative;
+  width: 100%;
+}
+
+.bannerButtonContainer {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  width: 30%;
+  cursor: pointer;
+}
+
+.bannerButton {
+  background-color: transparent;
+  border: 3px solid white;
+  color: white;
+  font-weight: bold;
+  padding: 16px;
+  width: 100%;
+  font-size: 16px;
+  margin-top: 16px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.secondButton {
+  border: none;
+}
+
+.bannerButton:hover {
+  background-color: white;
+  color: lightgray;
+}

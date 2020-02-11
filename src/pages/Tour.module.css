@@ -1,0 +1,54 @@
+.page {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.tourCard {
+  display: flex;
+  width: 80%;
+  margin: 16px;
+  margin-top: 0px;
+  border: solid 3px lightgray;
+}
+
+.tourDateContainer {
+  display: flex;
+  padding: 16px;
+  color: lightgrey;
+  align-items: center;
+  font-weight: bold;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.innerContainer {
+  display: flex;
+}
+
+.city {
+  font-weight: normal;
+  padding-left: 16px;
+}
+
+.venue { 
+  padding-left: 16px;
+}
+
+.date {
+  color: white;
+}
+
+.ticketButton {
+  background-color: transparent;
+  height: 100%;
+  color: lightgray;
+  font-weight: bold;
+  padding: 16px;
+}
+
+.ticketButton:hover {
+  background-color: lightgray;
+  color: white;
+  border: solid 2px white;
+}

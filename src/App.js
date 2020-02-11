@@ -1,24 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import NavBar from './components/NavBar';
+import BannerImage from './components/BannerImage';
+import baconBanner from './images/baconBanner1.png';
+import Tour from './pages/Tour'
+import SideSocialNav from './components/SideSocialNav'
+import Band from './pages/Band'
+import Social from './pages/Social'
+import Booking from './pages/Booking'
+import './App.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      <NavBar />
+      <SideSocialNav />
+      <BannerImage src={baconBanner} alt="Space Bacon" buttons={true}/>
+      <Tour />
+      <Band />
+      <Social />
+      <Booking />
     </div>
   );
 }

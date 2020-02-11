@@ -1,0 +1,20 @@
+.SocialNavContainer {
+  position: fixed;
+  width: 30px;
+  left: 0;
+  top: 50%;
+  z-index: 1;
+  padding: 6px;
+  transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+}
+
+.socialIcon {
+  width: 25px;
+  margin-bottom: 6px;
+  border-radius: 50%;
+}
+
+.socialIcon:hover {
+  border: solid 2px white;
+}

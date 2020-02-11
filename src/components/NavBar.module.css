@@ -1,0 +1,33 @@
+.nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 16px;
+}
+
+.logo {
+  height: 65px;
+}
+
+.pageLinkContainer {
+  display: flex;
+  align-items: center;
+  color: white;
+  height: 45px;
+  padding-left: 16px;
+}
+
+.pageLink {
+  height: 100%;
+  border: none;
+  color: white;
+  margin-right: 16px;
+  background-color: #0D0907;
+  height: 100%;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.pageLink:hover {
+  color: rgb(62, 62, 245);
+}
