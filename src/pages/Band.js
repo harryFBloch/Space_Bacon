@@ -4,13 +4,15 @@ import BannerImage from '../components/BannerImage';
 import BandPhoto from '../images/theBandCouch.png';
 import { gridPics1 } from '../images/gridPics/gridpics';
 
+
 export const Band = () => {
 
+  //css is stored in app.css TODO: Move to segerate file
   const renderBandPhotos = () => {
     const pics = gridPics1.map((pic, count) => {
-      return <img src={pic} alt={`Space Bacon ${count}`} className={classes.bandPhoto}/>
+      return <img src={pic} alt={`Space Bacon ${count}`} className="gridPhoto"/>
     })
-    return <div className={classes.bandPhotoContainer}>{pics}</div>
+    return <div className="extraSmallCenter"><div className="gridPhotoContainer">{pics}</div><div></div></div>
   }
 
   return (
@@ -27,9 +29,7 @@ export const Band = () => {
         <p>“On the rise Brooklyn-based jammers Space Bacon continue to break boundaries with their funky electronica fusion… Get ready for a cosmic journey of epic proportions with Space Bacon and their new EP.”</p>
         <p>– Live For Live Music</p>
       </div>
-
       {renderBandPhotos()}
-
     </div>
     </>
   )

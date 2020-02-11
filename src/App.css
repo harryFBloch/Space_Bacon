@@ -3,3 +3,58 @@ h1 {
   color: white;
   text-align: center;
 }
+
+.gridPhotoContainer {
+  margin-top: 71px;
+  width: 50%;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.gridPhoto {
+  width: 200px;
+  justify-self: center;
+}
+
+/* small screens */
+@media only screen and (max-width: 900px) {
+  .gridPhotoContainer {
+    width: 30%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-auto-rows: 150px;
+    row-gap: 16px;
+    column-gap: 16px;
+    grid-auto-flow: dense;
+  }
+  
+  .gridPhoto {
+    width: 150px;
+    justify-self: center;
+    align-self: center;
+    height: auto;
+  }
+}
+
+/* extra small screens */
+@media only screen and (max-width: 650px) {
+  .gridPhotoContainer {
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: 100px;
+    column-gap: 16px;
+    grid-auto-flow: dense;
+  }
+  
+  .gridPhoto {
+    width: 100px;
+    justify-self: center;
+    align-self: center;
+    height: auto;
+  }
+
+  .extraSmallCenter {
+    display: flex;
+    justify-content: center;
+  }
+}

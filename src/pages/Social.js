@@ -6,9 +6,9 @@ export const Social = () => {
 
   const renderBandPhotos = () => {
     const pics = gridPics2.map((pic, count) => {
-      return <img src={pic} alt={`Space Bacon ${count}`} className={classes.bandPhoto}/>
+      return <img src={pic} alt={`Space Bacon ${count}`} className="gridPhoto"/>
     })
-    return <div className={classes.bandPhotoContainer}>{pics}</div>
+    return <div className="gridPhotoContainer">{pics}</div>
   }
 
   return (

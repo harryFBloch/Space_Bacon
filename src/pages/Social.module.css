@@ -1,15 +1,3 @@
-.bandPhotoContainer {
-  width: 50%;
-  display: grid;
-  grid-template-columns: auto auto;
-}
-
-.bandPhoto {
-  margin-top: 16px;
-  width: 200px;
-  justify-self: center;
-}
-
 .page {
   margin-top: 16px;
   display: flex;
