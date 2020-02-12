@@ -61,4 +61,7 @@ h1 {
     display: flex;
     justify-content: center;
   }
+  .fontSize {
+    font-size: 12px;
+  }
 }

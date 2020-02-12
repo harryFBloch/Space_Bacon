@@ -7,14 +7,14 @@
 .tourCard {
   display: flex;
   width: 80%;
-  margin: 16px;
+  margin: 6px;
   margin-top: 0px;
   border: solid 3px lightgray;
 }
 
 .tourDateContainer {
   display: flex;
-  padding: 16px;
+  padding: 6px;
   color: lightgrey;
   align-items: center;
   font-weight: bold;
@@ -29,6 +29,7 @@
 .city {
   font-weight: normal;
   padding-left: 16px;
+  margin-right: 6px;
 }
 
 .venue { 
@@ -44,7 +45,7 @@
   height: 100%;
   color: lightgray;
   font-weight: bold;
-  padding: 16px;
+  padding: 6px;
 }
 
 .ticketButton:hover {

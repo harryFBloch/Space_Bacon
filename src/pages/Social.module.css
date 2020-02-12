@@ -22,3 +22,29 @@
   left: 50%;
   transform: translate(-50%, 0);
 }
+
+.outerPicContainer {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.horizontalOuterContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.horizontalGrid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-auto-rows: 120px;
+  grid-auto-flow: dense;
+}
+
+.colPhoto {
+  width: 120px;
+  justify-self: center;
+  align-self: center;
+  height: auto;
+}
