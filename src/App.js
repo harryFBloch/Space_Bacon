@@ -13,7 +13,6 @@ function App() {
   return (
     <>
       <NavBar />
-      <div className="blah">BLAH</div>
       <SideSocialNav />
       <BannerImage src={baconBanner} alt="Space Bacon" buttons={true}/>
       <Tour />

@@ -1,8 +1,8 @@
 .nav {
   display: flex;
   align-items: center;
-  width: 100%;
   padding: 16px;
+  justify-content: space-between;
 }
 
 .logo {
@@ -29,5 +29,28 @@
 }
 
 .pageLink:hover {
-  color: rgb(62, 62, 245);
+  color: lightgray;
+}
+
+.menuIcon {
+  width: 30px;
+}
+
+.menuButton {
+  display: none;
+  border-radius: 50%;
+  background-color: transparent;
+  border: none;
+}
+
+
+@media only screen and (max-width: 500px) {
+
+  .pageLinkContainer {
+    display: none;
+  }
+
+  .menuButton {
+    display: inherit;
+  }
 }

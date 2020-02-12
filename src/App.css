@@ -4,6 +4,10 @@ h1 {
   text-align: center;
 }
 
+button:focus {
+  outline: lightgrey auto 5px; 
+}
+
 .gridPhotoContainer {
   margin-top: 71px;
   width: 50%;
