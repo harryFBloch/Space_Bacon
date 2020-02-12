@@ -9,13 +9,21 @@ export const Booking = () => {
       <div className={classes.section}>
         <p>For Booking Please Contact:</p>
         <p>Pivotal Agency // Sam Hutchinson</p>
-        <p>SpaceBaconBooking@gmail.com</p>
+        <p>
+          <a href="mailto:SpaceBaconBooking@gmail.com" className={classes.emailLink}>
+            SpaceBaconBooking@gmail.com
+          </a>
+        </p>
       </div>
 
       <div className={classes.section}>
         <p>For Press Inquiries and General Contact:</p>
         <p>Harrison Waxenberg - Manager</p>
-        <p>SpaceBaconMusic@gmail.com</p>
+        <p>
+          <a href="mailto:spacebaconmgmt@gmail.com" className={classes.emailLink}>
+            spacebaconmgmt@gmail.com
+          </a>
+        </p>
       </div>
 
     </div>

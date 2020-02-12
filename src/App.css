@@ -22,6 +22,10 @@ button:focus {
   justify-self: center;
 }
 
+body {
+  font-family: roboto;
+}
+
 /* small screens */
 @media only screen and (max-width: 900px) {
   .gridPhotoContainer {
