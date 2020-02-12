@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './Tour.module.css';
+import tourFlyer from '../images/springTourFlyer.png'
 
 const TourDate = {date: 'Feb 15', venue: 'The Stone Church', city: 'Brattleboro, VT', ticketLink: 'https://m.bpt.me/event/4488972'}
 
@@ -25,11 +26,13 @@ export const Tour = () => {
   return (
     <>
       <h1>Tour</h1>
-      
-            {renderTourDate(TourDate)}
-            {renderTourDate(TourDate)}
-            {renderTourDate(TourDate)}
-            {renderTourDate(TourDate)}
+      <div className={classes.page}>
+        <img src={tourFlyer} alt="space bacon tour flyer" className={classes.flyer}/>
+      </div>
+      {renderTourDate(TourDate)}
+      {renderTourDate(TourDate)}
+      {renderTourDate(TourDate)}
+      {renderTourDate(TourDate)}
     </>
   )
 }

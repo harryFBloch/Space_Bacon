@@ -4,6 +4,11 @@
   justify-content: center;
 }
 
+.flyer {
+  width: 50%;
+  margin-bottom: 16px;
+}
+
 .tourCard {
   display: flex;
   width: 80%;

@@ -4,6 +4,8 @@ import classes from './Social.module.css';
 
 export const Social = () => {
 
+  const [ smallScreen, setSmallScreen ] = useState();
+  
   const renderBandPhotos = (picArray) => {
     const pics = picArray.map((pic, count) => {
       return <img src={pic} alt={`Space Bacon ${count}`} className="gridPhoto"/>
