@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from '../images/spaceBaconBanner.png'
 import classes from './NavBar.module.css'
 
 export const NavBar = () => {
 
-  const linkButton = (section) => (
+  const [ menuOpen, setMenuOpen] = useState(false)
+
+  const linkButton = (section, padding = false) => (
     <a href={`#${section}`}>
-      <button className={classes.pageLink} onClick={() => {
-        console.log(section)
+      <button
+      className={classes.pageLink} onClick={() => {
       }}>
             {section}
       </button>
@@ -17,7 +19,7 @@ export const NavBar = () => {
   return (
     <div className={classes.nav}>
       <img src={logo} alt="Space Bacon" className={classes.logo}/>
-
+      
       <div className={classes.pageLinkContainer}>
         {linkButton("Tour")}
         {linkButton("Band")}
@@ -25,9 +27,7 @@ export const NavBar = () => {
         {linkButton("Audio")}
         {linkButton("Booking")}
       </div>
-
-      {/* <svg src={menuIcon} fill="white"></svg> */}
-      <button className={classes.menuButton}>
+      <button className={classes.menuButton} onClick={() => setMenuOpen(!menuOpen)}>
         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
             viewBox="0 0 512 512" className={classes.menuIcon}>
           <g>
@@ -43,6 +43,18 @@ export const NavBar = () => {
 
         </svg>
       </button>
+      {menuOpen && 
+      <>
+        <div className={classes.dropdown}>
+          {linkButton("Tour", true)}
+          {linkButton("Band", true)}
+          {linkButton("Social", true)}
+          {linkButton("Audio", true)}
+          {linkButton("Booking", true)}
+        </div>
+        <div className={classes.backdrop} onClick={() => setMenuOpen(false)}/>
+      </>
+      }
     </div>
   )
 }
