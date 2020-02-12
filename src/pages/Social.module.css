@@ -15,6 +15,7 @@
 
 .facebook {
   margin-right: 16px;
+  border: solid 3px lightgray;
 }
 
 .extraSmallFacebook {
@@ -23,6 +24,7 @@
   transform: translate(-50%, 0);
   margin-top: 16px;
   margin-bottom: 16px;
+  border: solid 3px lightgray;
 }
 
 .outerPicContainer {
