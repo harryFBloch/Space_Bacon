@@ -9,8 +9,7 @@ export const NavBar = () => {
   const linkButton = (section, padding = false) => (
     <a href={`#${section}`}>
       <button
-      className={classes.pageLink} onClick={() => {
-      }}>
+      className={classes.pageLink} onClick={() => setMenuOpen(false)}>
             {section}
       </button>
     </a>
