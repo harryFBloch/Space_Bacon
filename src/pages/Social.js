@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { gridPics2 } from '../images/gridPics/gridpics'
 import classes from './Social.module.css';
 

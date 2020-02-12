@@ -9,7 +9,7 @@ button:focus {
 }
 
 .gridPhotoContainer {
-  margin-top: 71px;
+  margin-top: 75px;
   width: 50%;
   display: grid;
   row-gap: 16px;
