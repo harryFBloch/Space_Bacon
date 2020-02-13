@@ -34,8 +34,10 @@ export const Booking = () => {
         <p>Kevin  Legall - Bass</p>
         <p>Sam Crespo - Drums</p>
       </div>
-
-      <p>Website by Harry Bloch</p>
+      
+      <div className={classes.section}>
+        <p>Website by Harry Bloch</p>
+      </div>
     </div>
   )
 }
