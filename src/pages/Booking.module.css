@@ -1,5 +1,6 @@
 .bookingTitle {
   margin-bottom: 0px;
+  margin-left: 0px;
 }
 
 .bookingContainer {
@@ -8,7 +9,7 @@
 }
 
 .section {
-  padding: 16px;
+  padding-top: 16px;
 }
 
 .emailLink {
