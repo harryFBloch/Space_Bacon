@@ -26,6 +26,16 @@ export const Booking = () => {
         </p>
       </div>
 
+
+      <div className={classes.section}>
+        <h2>Members:</h2>
+        <p>Jack Willard - Guitar</p>
+        <p>Chris Gironda - Keyboards</p>
+        <p>Kevin  Legall - Bass</p>
+        <p>Sam Crespo - Drums</p>
+      </div>
+
+      <p>Website by Harry Bloch</p>
     </div>
   )
 }

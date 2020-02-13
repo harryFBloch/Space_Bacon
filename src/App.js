@@ -8,6 +8,7 @@ import NavBar from './components/NavBar';
 import SideSocialNav from './components/SideSocialNav';
 import Home from './pages/Home';
 import Audio from './pages/Audio';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Home />
         </Route>
       </Switch>
+      <Footer />
     </Router>
   );
 }
