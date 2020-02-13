@@ -1,6 +1,7 @@
 .page {
   margin-top: 16px;
   display: flex;
+  justify-content: space-between;
 }
 
 .frameContainer {
@@ -10,12 +11,16 @@
 }
 
 .socialContainer {
-  width: 50%;
+  width: 30%;
 }
 
 .facebook {
   margin-right: 16px;
   border: solid 3px lightgray;
+}
+
+.topMargin {
+  margin-top: 0 !important;
 }
 
 .extraSmallFacebook {
@@ -27,8 +32,17 @@
   border: solid 3px lightgray;
 }
 
+.twitter {
+  width: 340px;
+  border: none;
+}
+
+.twitterMargin {
+  margin-left: 32px;
+}
+
 .outerPicContainer {
-  width: 50%;
+  width: 30%;
   display: flex;
   justify-content: center;
 }
@@ -37,6 +51,10 @@
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+.largeGridPhoto {
+  width: 157px !important;
 }
 
 .horizontalGrid {
@@ -52,4 +70,10 @@
   justify-self: center;
   align-self: center;
   height: auto;
+}
+
+@media only screen and (max-width: 1060px) { 
+  .largeGridPhoto {
+    width: 120px !important;
+  }
 }

@@ -21,7 +21,7 @@ export const Booking = () => {
         <p>Harrison Waxenberg - Manager</p>
         <p>
           <a href="mailto:spacebaconmgmt@gmail.com" className={classes.emailLink}>
-            spacebaconmgmt@gmail.com
+            SpaceBaconMGMT@gmail.com
           </a>
         </p>
       </div>

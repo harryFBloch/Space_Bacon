@@ -10,10 +10,15 @@ import pic9 from './pic9.png';
 import pic10 from './pic10.png';
 import pic11 from './pic11.png';
 import pic12 from './pic12.png';
+import pic13 from './pic13.png';
+import pic14 from './pic14.png';
+import pic15 from './pic15.png';
 
 export const gridPics1 = [ pic1, pic2, pic3, pic4, pic5, pic6];
 
 export const gridPics2 = [ pic7, pic8, pic9, pic10, pic11, pic12 ];
+
+export const gridPics3 = [pic13, pic14, pic15];
 
 
 

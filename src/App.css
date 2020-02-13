@@ -10,11 +10,11 @@ button:focus {
 
 .gridPhotoContainer {
   margin-top: 75px;
-  width: 50%;
   display: grid;
   row-gap: 16px;
   column-gap: 16px;
   grid-template-columns: auto auto;
+  grid-auto-rows: max-content;
 }
 
 .gridPhoto {
@@ -23,7 +23,11 @@ button:focus {
 }
 
 body {
-  font-family: roboto;
+  font-family: futura;
+}
+
+.fontSize {
+  font-size: 14px;
 }
 
 /* small screens */
@@ -70,6 +74,6 @@ body {
     justify-content: center;
   }
   .fontSize {
-    font-size: 12px;
+    font-size: 13px;
   }
 }
