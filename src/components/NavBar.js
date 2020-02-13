@@ -1,18 +1,19 @@
 import React, { useState } from 'react';
 import logo from '../images/spaceBaconBanner.png'
 import classes from './NavBar.module.css'
+import { HashLink as Link } from 'react-router-hash-link'
 
 export const NavBar = () => {
 
   const [ menuOpen, setMenuOpen] = useState(false)
 
-  const linkButton = (section, padding = false) => (
-    <a href={`#${section}`} onClick={() => setMenuOpen(false)}>
+  const linkButton = (section, padding = false, router) => (
+    <Link to={ router ? `/${router}` : `/#${section}`} onClick={() => setMenuOpen(false)}>
       <button
       className={classes.pageLink}>
             {section}
       </button>
-    </a>
+    </Link>
   )
 
   return (
@@ -23,7 +24,7 @@ export const NavBar = () => {
         {linkButton("Tour")}
         {linkButton("Band")}
         {linkButton("Social")}
-        {linkButton("Audio")}
+        {linkButton("Audio", false, 'Audio')}
         {linkButton("Booking")}
       </div>
       <button className={classes.menuButton} onClick={() => setMenuOpen(!menuOpen)}>

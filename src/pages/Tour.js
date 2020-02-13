@@ -25,7 +25,7 @@ export const Tour = () => {
 
   return (
     <>
-      <h1>Tour</h1>
+      <h1 id="Tour">Tour</h1>
       <div className={classes.page}>
         <img src={tourFlyer} alt="space bacon tour flyer" className={classes.flyer}/>
       </div>
