@@ -49,7 +49,7 @@ export const NavBar = () => {
           {linkButton("Tour", true)}
           {linkButton("Band", true)}
           {linkButton("Social", true)}
-          {linkButton("Audio", true)}
+          {linkButton("Audio", true, 'Audio')}
           {linkButton("Booking", true)}
         </div>
         <div className={classes.backdrop} onClick={() => setMenuOpen(false)}/>
