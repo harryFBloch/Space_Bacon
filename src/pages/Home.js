@@ -9,7 +9,7 @@ export const Home = () => {
 
   return (
     <>
-      <BannerImage src={baconBanner} alt="Space Bacon" buttons={true}/>
+      <BannerImage src={baconBanner} alt="Space Bacon"/>
       <Tour />
       <Band />
       <Social />

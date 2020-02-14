@@ -15,12 +15,12 @@
   width: 80%;
   margin: 6px;
   margin-top: 0px;
-  border: solid 3px lightgray;
+  border: solid 1px lightgray;
 }
 
 .tourDateContainer {
   display: flex;
-  padding: 6px;
+  padding: 3px;
   color: lightgrey;
   align-items: center;
   font-weight: bold;
