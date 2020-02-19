@@ -30,9 +30,9 @@ export const Tour = () => {
       <div className={classes.tourCard}>
         <div className={classes.tourDateContainer}>
           <div className={classes.innerContainer}>
-            <div className={`${classes.date} fontSize`}>{date}</div>
-            <div className={`${classes.venue} fontSize`}>{venue}</div>
-            <div className={`${classes.city} fontSize`}>{city}</div>
+            <div className={`${classes.date} fontSize ${classes.tourInfo}`}>{date}</div>
+            <div className={`${classes.venue} fontSize ${classes.tourInfo}`}>{venue}</div>
+            <div className={`${classes.city} fontSize ${classes.tourInfo}`}>{city}</div>
           </div>
           <a href={ticketLink} target="_blank" rel="noopener noreferrer">
             <button className={classes.ticketButton}>TICKETS</button>

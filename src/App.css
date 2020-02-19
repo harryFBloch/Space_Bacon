@@ -83,3 +83,9 @@ body {
     font-size: 13px;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  .fontSize {
+    font-size: 11px;
+  }
+}

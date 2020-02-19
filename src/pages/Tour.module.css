@@ -30,6 +30,7 @@
 
 .innerContainer {
   display: flex;
+  width: 80%;
 }
 
 .city {
@@ -44,6 +45,12 @@
 
 .date {
   color: white;
+}
+
+.tourInfo {
+  width: 30%;
+  display: flex;
+  align-items: center;
 }
 
 .ticketButton {
