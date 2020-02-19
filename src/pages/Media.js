@@ -1,11 +1,11 @@
 import React from 'react';
-import classes from './Audio.module.css';
+import classes from './Media.module.css';
 
-export const Audio = () => {
+export const Media = () => {
 
   return (
     <>
-      <h1>Audio</h1>
+      <h1>Media</h1>
       <div className={classes.aspectRatio}>
         <iframe width="560" height="315" 
           src={`https://www.youtube.com/embed/videoseries?list=PLhXi3_sG3_EX8wuwUbadxlYQls4zP51W2&amp;autoplay=1&mute=1`}
@@ -36,6 +36,4 @@ export const Audio = () => {
   )
 }
 
-export default Audio
-
-// videoseries?list=PLhXi3_sG3_EX8wuwUbadxlYQls4zP51W2?autoplay=1
+export default Media

@@ -24,7 +24,7 @@ export const NavBar = () => {
         {linkButton("Tour")}
         {linkButton("Band")}
         {linkButton("Social")}
-        {linkButton("Audio", false, 'Audio')}
+        {linkButton("Media", false, 'Media')}
         {linkButton("Booking")}
       </div>
       <button className={classes.menuButton} onClick={() => setMenuOpen(!menuOpen)}>
@@ -49,7 +49,7 @@ export const NavBar = () => {
           {linkButton("Tour", true)}
           {linkButton("Band", true)}
           {linkButton("Social", true)}
-          {linkButton("Audio", true, 'Audio')}
+          {linkButton("Media", true, 'Media')}
           {linkButton("Booking", true)}
         </div>
         <div className={classes.backdrop} onClick={() => setMenuOpen(false)}/>

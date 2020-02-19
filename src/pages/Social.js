@@ -1,12 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { gridPics2, gridPics3 } from '../images/gridPics/gridpics';
 import TwitterEmbed from '../components/TwitterEmbed';
 import classes from './Social.module.css';
 
 
 export const Social = () => {
-
-  const [ smallScreen, setSmallScreen ] = useState();
 
   const renderBandPhotos = (picArray) => {
     const pics = picArray.map((pic, count) => {
