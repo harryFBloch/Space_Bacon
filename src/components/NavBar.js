@@ -18,7 +18,7 @@ export const NavBar = () => {
 
   return (
     <div className={classes.nav}>
-      <img src={logo} alt="Space Bacon" className={classes.logo}/>
+      <Link to='/'><img src={logo} alt="Space Bacon" className={classes.logo}/></Link>
       
       <div className={classes.pageLinkContainer}>
         {linkButton("Tour")}
