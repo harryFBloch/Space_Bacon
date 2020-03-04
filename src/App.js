@@ -7,7 +7,6 @@ import {
 import NavBar from './components/NavBar';
 import SideSocialNav from './components/SideSocialNav';
 import Home from './pages/Home';
-import Media from './pages/Media';
 import Footer from './components/Footer';
 import './App.css';
 
@@ -17,9 +16,6 @@ function App() {
       <NavBar />
       <SideSocialNav />
       <Switch>
-        <Route exact path="/Media" >
-          <Media />
-        </Route>
         <Route exact path="/">
           <Home />
         </Route>
