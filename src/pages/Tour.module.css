@@ -33,6 +33,12 @@
   width: 80%;
 }
 
+.tourInfo {
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
 .city {
   font-weight: normal;
   padding-left: 16px;
@@ -41,16 +47,12 @@
 
 .venue { 
   padding-left: 16px;
+  width: 35%;
 }
 
 .date {
   color: white;
-}
-
-.tourInfo {
-  width: 30%;
-  display: flex;
-  align-items: center;
+  width: 25%;
 }
 
 .ticketButton {
