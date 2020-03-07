@@ -15,7 +15,10 @@ export const Tour = () => {
   const renderTourDate = (tourDate, count) => {
     const date = new Date(tourDate.datetime)
     const dateString = `${Months[date.getMonth()]} ${date.getDate()}`
-    console.log(date)
+    let url = ''
+    if (tourDate.offers[0]) {
+      url = tourDate.offers[0].url
+    }
     return (
       <div className={classes.page} key={`tour${count}`}>
         <div className={classes.tourCard}>
@@ -25,7 +28,7 @@ export const Tour = () => {
               <div className={`${classes.venue} fontSize ${classes.tourInfo}`}>{tourDate.venue.name}</div>
               <div className={`${classes.city} fontSize ${classes.tourInfo}`}>{tourDate.venue.city}, {tourDate.venue.region}</div>
             </div>
-            <a href={tourDate.ticketLink} target="_blank" rel="noopener noreferrer">
+            <a href={url} target="_blank" rel="noopener noreferrer">
               <button className={classes.ticketButton}>TICKETS</button>
             </a>
           </div>
